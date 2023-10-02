@@ -27,7 +27,7 @@ export default {
         opensans: ["Open Sans", "sans-serif"],
       },
       content: {
-        brush: "url('./assets/')",
+        brush: "url('./assets/brush.png')",
         person1: "url('./assets/')",
         person2: "url('./assets/')",
         person3: "url('./assets/')",
