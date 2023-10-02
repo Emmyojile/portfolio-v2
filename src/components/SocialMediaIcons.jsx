@@ -17,26 +17,26 @@ const SocialMediaIcons = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <img src='/assets/twitter.png' alt='linkedin-link'/>
+        <img src='/assets/twitter.png' alt='twitter-link'/>
       </a>
       <a
         className='hover:opacity-50 transition duration-500'
-        href='https://linkedin.com/in/'
+        href='https://twitter.com/in/'
         target='_blank'
         rel='noreferrer'
       >
         <img src='/assets/github.png'
-         alt='linkedin-link'
-         className='bg-white rounded-sm'
+         alt='github-link'
+         className='bg-white text-black'
          />
       </a>
       <a
         className='hover:opacity-50 transition duration-500'
-        href='https://linkedin.com/in/'
+        href='https://facebook.com/in/'
         target='_blank'
         rel='noreferrer'
       >
-        <img src='/assets/facebook.png' alt='linkedin-link'/>
+        <img src='/assets/facebook.png' alt='facebook-link'/>
       </a>
     </div>
   )
