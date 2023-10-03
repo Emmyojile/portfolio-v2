@@ -5,7 +5,8 @@ const SocialMediaIcons = () => {
     <div className='flex justify-center md:justify-start my-10 gap-7'>
       <a
         className='hover:opacity-50 transition duration-500'
-        href='https://linkedin.com/in/'
+        // href='https://linkedin.com/in/'
+        href='https://www.linkedin.com/in/ojile-emmanuel-6847a524b/'
         target='_blank'
         rel='noreferrer'
       >
@@ -13,7 +14,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className='hover:opacity-50 transition duration-500'
-        href='https://twitter.com/in/'
+        href='https://twitter.com/EmmanuelOjile7?t=KIx7XpTtGbiSs75UUrUJfQ&s=09'
         target='_blank'
         rel='noreferrer'
       >
@@ -21,7 +22,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className='hover:opacity-50 transition duration-500'
-        href='https://twitter.com/in/'
+        href='https://github.com/Emmyojile'
         target='_blank'
         rel='noreferrer'
       >
@@ -30,14 +31,7 @@ const SocialMediaIcons = () => {
          className='bg-white text-black'
          />
       </a>
-      <a
-        className='hover:opacity-50 transition duration-500'
-        href='https://facebook.com/in/'
-        target='_blank'
-        rel='noreferrer'
-      >
-        <img src='/assets/facebook.png' alt='facebook-link'/>
-      </a>
+      
     </div>
   )
 }
