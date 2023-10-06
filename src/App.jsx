@@ -95,46 +95,6 @@ function App() {
       </div>
       <Footer />
     </div>
-
-
-    // <>
-    //   <div className="app bg-deep-blue">
-    //     <Navbar
-    //       isTopOfPage={isTopOfPage}
-    //       selectedPage={selectedPage}
-    //       setSelectedPage={setSelectedPage}
-    //     />
-    //     <div className="w-5/6 mx-auto md:h-full">
-    //       {isAboveMediumScreens && (
-    //         <DotGroup
-    //           selectedPage={selectedPage}
-    //           setSelectedPage={setSelectedPage}
-    //         />
-    //       )}
-    //       <Landing setSelectedPage={setSelectedPage} />
-    //     </div>
-
-    //     <LineGradient />
-    //     <div className="w-5/6 mx-auto md:h-full">
-    //       <MySkills />
-    //     </div>
-
-    //     <LineGradient />
-    //     <div className="w-5/6 mx-auto">
-    //       <Projects />
-    //     </div>
-
-    //     <LineGradient />
-    //     <div className="w-5/6 mx-auto md:h-full">
-    //       <Testimonials />
-    //     </div>
-    //     <LineGradient />
-    //     <div className="w-5/6 mx-auto md:h-full">
-    //       <Contact />
-    //     </div>
-    //     <Footer />
-    //   </div>
-    // </>
   );
 }
 
