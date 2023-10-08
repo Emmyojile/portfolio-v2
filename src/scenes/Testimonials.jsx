@@ -32,7 +32,7 @@ const Testimonials = () => {
       {/* TESTIMONIALS  */}
       <div className="md:flex md:justify-between gap-8">
         <motion.div
-          className={`bg-blue ${testimonialStyles} before:content-person1 `}
+          className={`bg-blue ${testimonialStyles} before:content-frontend`}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -49,7 +49,7 @@ const Testimonials = () => {
         </motion.div>
 
         <motion.div
-          className={`bg-red ${testimonialStyles} before:content-person2`}
+          className={`bg-red ${testimonialStyles} before:content-backend`}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
