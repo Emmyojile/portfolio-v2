@@ -4,7 +4,7 @@ import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
 import LineGradient from "./components/LineGradient";
-import MySkills from "./scenes/MySkills";
+import MySkills from "./scenes/About";
 import Projects from "./scenes/Projects";
 import Testimonials from "./scenes/Testimonials";
 import Contact from "./scenes/Contact";
@@ -74,7 +74,7 @@ function App() {
         </motion.div>
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full">
+      {/* <div className="w-5/6 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -82,8 +82,8 @@ function App() {
         >
           <Testimonials />
         </motion.div>
-      </div>
-      <LineGradient />
+      </div> */}
+      {/* <LineGradient /> */}
       <div className="w-5/6 mx-auto md:h-full">
         <motion.div
           margin="0 0 -200px 0"

@@ -6,7 +6,7 @@ const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   return (
-    <section id="about" className="pt-10 pb-24">
+    <section id="about" className="pt-2 pb-28">
       {/* {Header AND IMAGE SECTION} */}
 
       <div className="md:flex md:justify-between md:gap-16 mt-32">
@@ -42,12 +42,12 @@ const MySkills = () => {
             <div className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10  before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]">
               <img
                 alt="skills"
-                className="z-10"
-                src="/assets/skills-image.png"
+                className="z-10 w-3/5"
+                src="/assets/about.jpeg"
               />
             </div>
           ) : (
-            <img alt="skills" className="z-10" src="/assets/skills-image.png" />
+            <img alt="skills" className="z-10" src="/assets/about.jpeg" />
           )}
         </div>
       </div>
