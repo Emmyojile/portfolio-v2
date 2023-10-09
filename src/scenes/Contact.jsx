@@ -53,7 +53,8 @@ const Contact = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <img src="/assets/contact-image.jpeg" alt="contact-image" />
+          {/* <img src="/assets/contact-image.jpeg" alt="contact-image" /> */}
+          <img src="/assets/contact.png" alt="contact-image" className="w-4/5"/>
         </motion.div>
 
         <motion.div
@@ -74,7 +75,7 @@ const Contact = () => {
             method="POST"
           >
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
+              className="w-full bg-grey font-semibold placeholder-white p-3"
               type="text"
               placeholder="NAME"
               {...register("name", {
@@ -90,7 +91,7 @@ const Contact = () => {
             )}
 
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full bg-grey font-semibold placeholder-white p-3 mt-5"
               type="email"
               placeholder="EMAIL"
               {...register("email", {
@@ -106,7 +107,7 @@ const Contact = () => {
             )}
 
             <textarea
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full bg-grey font-semibold placeholder-white p-3 mt-5"
               type="text"
               placeholder="MESSAGE"
               rows="4"
@@ -126,7 +127,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+              className="p-5 bg-yellow font-semibold text-white mt-5 hover:bg-red hover:text-white transition duration-500"
             >
               SEND ME A MESSAGE
             </button>

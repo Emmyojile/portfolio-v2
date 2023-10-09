@@ -22,7 +22,7 @@ const MySkills = () => {
           }}
         >
           <p className="font-playfair font-semibold text-4xl">
-            ABOUT <span className="text-red">ME</span>
+            ABOUT <span className="text-yellow">ME</span>
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
@@ -39,7 +39,7 @@ const MySkills = () => {
 
         <div className="mt-16 md:mt-0">
           {isAboveMediumScreens ? (
-            <div className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10  before:w-3/5 before:h-full before:border-2 before:border-blue before:z-[-1] flex gap-8">
+            <div className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10  before:w-3/5 before:h-full before:border-2 before:border-grey before:z-[-1] flex gap-8">
               <img
                 alt="skills"
                 className="z-10 w-3/5"

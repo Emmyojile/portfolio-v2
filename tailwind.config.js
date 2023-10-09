@@ -8,10 +8,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        blue: '#2cbce9',
-        red: '#dc4492',
-        yellow: '#fdcc49',
-        grey: '#ededed',
+        blue: '#0E8388',
+        red: '#CD0404',
+        yellow: '#F99417',
+        grey: '#2E4F4F',
         "deep-blue": '#010026',
         "dark-gray": '#757575',
         "opaque-black": 'rgba(0, 0, 0, 0.35)'
@@ -20,7 +20,7 @@ export default {
         "gradient-rainbow":
           "linear-gradient(81.66deg, #0085ee 7.21%, #ff45a4 45.05%, #ffba00 78.07%)",
         "gradient-rainblue":
-          "linear-gradient(90deg, #24cbff 14.53%, #fc59ff 69.36%, #ffbd0c 117.73%)",
+          "linear-gradient(90deg, #F99417 14.53%, #2E4F4F 69.36%)",
       }),
       fontFamily: {
         playfair: ["PlayFair Display", "serif"],
