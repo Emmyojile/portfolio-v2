@@ -69,12 +69,12 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               {/* <p className="font-playfair font-semibold text-5xl">01</p> */}
-              <img src="/assets/frontend.png"/>
+              <img src="/assets/icons8-backend-64.png"/>
               <p className="font-playfair font-semibold text-3xl mt-3">
                 Frontend
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+            {/* <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" /> */}
           </div>
           <p className="mt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolor
@@ -96,12 +96,12 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               {/* <p className="font-playfair font-semibold text-5xl">02</p> */}
-              <img src="/assets/backend.png"/>
+              <img src="/assets/icons8-database-64.png" className="text-white fill-black"/>
               <p className="font-playfair font-semibold text-3xl mt-3">
                 Backend
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
+            {/* <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" /> */}
           </div>
           <p className="mt-5">
             Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
@@ -124,12 +124,13 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">03</p>
+              {/* <p className="font-playfair font-semibold text-5xl">03</p> */}
+              <img src="/assets/icons8-tools-64.png" className="text-white fill-black"/>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Immaginative
+                Tools and Others
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+            {/* <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" /> */}
           </div>
           <p className="mt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolor
