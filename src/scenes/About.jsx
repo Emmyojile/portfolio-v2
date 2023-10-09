@@ -39,7 +39,7 @@ const MySkills = () => {
 
         <div className="mt-16 md:mt-0">
           {isAboveMediumScreens ? (
-            <div className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10  before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]">
+            <div className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10  before:w-3/5 before:h-full before:border-2 before:border-blue before:z-[-1] flex gap-8">
               <img
                 alt="skills"
                 className="z-10 w-3/5"
@@ -68,9 +68,10 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">01</p>
+              {/* <p className="font-playfair font-semibold text-5xl">01</p> */}
+              <img src="/assets/frontend.png"/>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Experience
+                Frontend
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
@@ -94,9 +95,10 @@ const MySkills = () => {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">02</p>
+              {/* <p className="font-playfair font-semibold text-5xl">02</p> */}
+              <img src="/assets/backend.png"/>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                Backend
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
