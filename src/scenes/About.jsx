@@ -8,20 +8,19 @@ const MySkills = () => {
   return (
     <section id="about" className="pt-2 pb-28">
       {/* {Header AND IMAGE SECTION} */}
-
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
           className="md:w-1/3"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.2, duration: 0.5 }}
+          transition={{ duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="font-playfair font-semibold text-4xl">
+          <p className="font-playfair font-semibold text-4xl mb-5">
             ABOUT <span className="text-yellow">ME</span>
           </p>
           <LineGradient width="w-1/3" />
@@ -37,17 +36,22 @@ const MySkills = () => {
           </p>
         </motion.div>
 
-        <div className="mt-16 md:mt-0">
+        <div className="mt-16 md:mt-0 md:w-1/2">
+          {" "}
+          {/* Adjusted the width to 1/2 (50%) for larger screens */}
           {isAboveMediumScreens ? (
-            <div className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10  before:w-3/5 before:h-full before:border-2 before:border-grey before:z-[-1] flex gap-8">
+            <div
+              className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
+      before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+            >
               <img
                 alt="skills"
-                className="z-10 w-3/5"
-                src="/assets/about.jpeg"
+                className="z-10"
+                src="/assets/skills-image.png"
               />
             </div>
           ) : (
-            <img alt="skills" className="z-10" src="/assets/about.jpeg" />
+            <img alt="skills" className="z-10" src="/assets/skills-image.png" />
           )}
         </div>
       </div>
@@ -69,17 +73,35 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               {/* <p className="font-playfair font-semibold text-5xl">01</p> */}
-              <img src="/assets/icons8-backend-64.png"/>
+              <img src="/assets/icons8-backend-64.png" />
               <p className="font-playfair font-semibold text-3xl mt-3">
                 Frontend
               </p>
             </div>
             {/* <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" /> */}
           </div>
-          <p className="mt-5">
+          {/* <p className="mt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolor
             nulla deleniti ipsam recusandae nesciunt.
-          </p>
+          </p> */}
+          <ul>
+            <div className="flex gap-10 ">
+            <li>ReactJs</li>
+            <img src="/public/assets/icons8-react-32.png"/>
+            </div>
+            <div className="flex gap-10">
+            <li>Tailwind</li>
+            <img src="/public/assets/icons8-tailwind-css-32.png"/>
+            </div>
+            <div className="flex gap-10">
+            <li>SCSS</li>
+            <img src="/public/assets/icons8-sass-32.png"/>
+            </div>
+            <div className="flex gap-10">
+            <li>Nextjs</li>
+            <img src="/public/assets/icons8-sass-32.png"/>
+            </div>
+          </ul>
         </motion.div>
         {/* {INNOVATIVE} */}
         <motion.div
@@ -96,19 +118,38 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               {/* <p className="font-playfair font-semibold text-5xl">02</p> */}
-              <img src="/assets/icons8-database-64.png" className="text-white fill-black"/>
+              <img
+                src="/assets/icons8-database-64.png"
+                className="text-white fill-black"
+              />
               <p className="font-playfair font-semibold text-3xl mt-3">
                 Backend
               </p>
             </div>
             {/* <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" /> */}
           </div>
-          <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
-          </p>
+          {/* <p className="mt-3">NodeJs</p>
+          <p className="mt-3">Express</p>
+          <p className="mt-3">MongoDb</p>
+          <p className="mt-3">Postgresql</p> */}
+          <ul>
+            <div className="flex gap-10 ">
+            <li>NodeJs</li>
+            <img src="/public/assets/icons8-nodejs-32.png"/>
+            </div>
+            <div className="flex gap-10">
+            <li>Express</li>
+            <img src="/public/assets/icons8-express-js-32.png"/>
+            </div>
+            <div className="flex gap-10">
+            <li>MongoDb</li>
+            <img src="/public/assets/icons8-mongodb-32.png"/>
+            </div>
+            <div className="flex gap-10">
+            <li>Postgresql</li>
+            <img src="/public/assets/icons8-postgresql-32.png"/>
+            </div>
+          </ul>
         </motion.div>
         {/* {IMMAGINATIVE} */}
         <motion.div
@@ -125,17 +166,37 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               {/* <p className="font-playfair font-semibold text-5xl">03</p> */}
-              <img src="/assets/icons8-tools-64.png" className="text-white fill-black"/>
+              <img
+                src="/assets/icons8-tools-64.png"
+                className="text-white fill-black"
+              />
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Tools and Others
+                Tools and Languages
               </p>
             </div>
             {/* <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" /> */}
           </div>
-          <p className="mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolor
-            nulla deleniti ipsam recusandae nesciunt.
-          </p>
+          {/* <p className="mt-5">
+            Lorem ipsum dolor sit amet consectetu
+          </p> */}
+          <ul>
+            <div className="flex gap-10 ">
+            <li>Git</li>
+            <img src="/public/assets/icons8-git-32.png"/>
+            </div>
+            <div className="flex gap-10">
+            <li>Postman</li>
+            <img src="/public/assets/icons8-postman-32.png"/>
+            </div>
+            <div className="flex gap-10">
+            <li>Javascript</li>
+            <img src="/public/assets/icons8-mongodb-32.png"/>
+            </div>
+            <div className="flex gap-10">
+            <li>Typescript</li>
+            <img src="/public/assets/icons8-postgresql-32.png"/>
+            </div>
+          </ul>
         </motion.div>
       </div>
     </section>

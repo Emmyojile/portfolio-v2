@@ -127,7 +127,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="p-5 bg-yellow font-semibold text-white mt-5 hover:bg-red hover:text-white transition duration-500"
+              className="p-5 bg-yellow font-semibold text-white mt-5 hover:bg-grey hover:text-white transition duration-500"
             >
               SEND ME A MESSAGE
             </button>
