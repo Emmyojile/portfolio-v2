@@ -2,6 +2,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SocialMediaIcons from "../components/SocialMediaIcons";
+import MyResume from "./../assets/better_resume_v2.pdf";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -19,7 +20,6 @@ const Landing = ({ setSelectedPage }) => {
               alt="profile"
               className="hover:filter hover:saturate-200 transistion duration-500 z-10 w-full max-w-[400px] md:max-w-[500px] rounded-b-[400px]"
               src="/assets/Dp.jpg"
-              // src="/assets/profile-image.png"
             />
           </div>
         ) : (
@@ -27,7 +27,6 @@ const Landing = ({ setSelectedPage }) => {
             alt="profile"
             className="hover:filter hover:saturate-200 transistion duration-500 z-10 w-full max-w-[400px] md:max-w-[500px] rounded-b-[400px]"
             src="/assets/Dp.jpg"
-            // src="/assets/profile-image.png"
           />
         )}
       </div>
@@ -73,13 +72,14 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <AnchorLink
+          <a
             className="bg-gradient-rainblue text-white rounded-sm py-3 px-7 font-semibold hover:bg-blue hover:text-black transition duration-500 border-y-grey border-2"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
+            href={MyResume} // Ensure that this variable points to your PDF file
+            download="MyResume.pdf" // Ensure the correct file extension
           >
             DOWNLOAD CV
-          </AnchorLink>
+          </a>
+
           <AnchorLink
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
             onClick={() => setSelectedPage("contact")}
