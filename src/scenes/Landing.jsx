@@ -73,7 +73,7 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <a
-            className="bg-gradient-rainblue text-white rounded-sm py-3 px-7 font-semibold hover:bg-blue hover:text-black transition duration-500 border-y-grey border-2 sm:text-2xl"
+            className="bg-gradient-rainblue text-white rounded-sm py-3 px-7 font-semibold hover:bg-blue hover:text-black transition duration-500 border-y-grey border-2 md:text-sm"
             href={MyResume} // Ensure that this variable points to your PDF file
             download="MyResume.pdf" // Ensure the correct file extension
           >
@@ -85,7 +85,7 @@ const Landing = ({ setSelectedPage }) => {
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
-            <div className="bg-grey hover:text-yellow transition duration-500 w-full h-full flex items-center justify-center font-playfair px-10 sm:text-2xl">
+            <div className="bg-grey hover:text-yellow transition duration-500 w-full h-full flex items-center justify-center font-playfair px-10 md:text-sm">
               Let's Talk
             </div>
           </AnchorLink>
