@@ -159,7 +159,7 @@ const MySkills = () => {
                 className="text-white fill-black"
               />
               <p className="font-playfair font-semibold text-4xl mt-3">
-                <span className="text-yellow">Tools</span> and{" "}
+                <span className="text-yellow">Tools</span> and
                 <span className="text-yellow">Languages</span>
               </p>
             </div>
