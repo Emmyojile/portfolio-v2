@@ -72,7 +72,7 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <img src="/assets/icons8-backend-64.png" />
-              <p className="font-playfair font-semibold text-4xl mt-3">
+              <p className="font-playfair font-semibold text-2xl mt-3">
                 <span className="text-yellow">Front</span>end
               </p>
             </div>
@@ -81,19 +81,19 @@ const MySkills = () => {
           <ul className="font-bold text-lg">
             <div className="flex gap-10 justify-between w-52">
               <li>ReactJs</li>
-              <img src="/public/assets/icons8-react-32.png" />
+              <img src="/assets/icons8-react-32.png" />
             </div>
             <div className="flex gap-10 justify-between w-52">
               <li>Tailwind</li>
-              <img src="/public/assets/icons8-tailwind-css-32.png" />
+              <img src="/assets/icons8-tailwind-css-32.png" />
             </div>
             <div className="flex gap-10 justify-between w-52">
               <li>SCSS</li>
-              <img src="/public/assets/icons8-sass-32.png" />
+              <img src="/assets/icons8-sass-32.png" />
             </div>
             <div className="flex gap-10 justify-between w-52">
               <li>Nextjs</li>
-              <img src="/public/assets/icons8-nextjs-32.png" />
+              <img src="/assets/icons8-nextjs-32.png" />
             </div>
           </ul>
         </motion.div>
@@ -115,7 +115,7 @@ const MySkills = () => {
                 src="/assets/icons8-database-64.png"
                 className="text-white fill-black"
               />
-              <p className="font-playfair font-semibold text-4xl mt-3">
+              <p className="font-playfair font-semibold text-2xl mt-3">
                 <span className="text-yellow">Back</span>end
               </p>
             </div>
@@ -124,19 +124,19 @@ const MySkills = () => {
           <ul className="font-bold text-lg">
             <div className="flex gap-10 justify-between w-52">
               <li>NodeJs</li>
-              <img src="/public/assets/icons8-nodejs-32.png" />
+              <img src="/assets/icons8-nodejs-32.png" />
             </div>
             <div className="flex gap-10 justify-between w-52">
               <li>Express</li>
-              <img src="/public/assets/icons8-express-js-32.png" />
+              <img src="/assets/icons8-express-js-32.png" />
             </div>
             <div className="flex gap-10 justify-between w-52">
               <li>MongoDb</li>
-              <img src="/public/assets/icons8-mongodb-32.png" />
+              <img src="/assets/icons8-mongodb-32.png" />
             </div>
             <div className="flex gap-10 justify-between w-52">
               <li>Postgresql</li>
-              <img src="/public/assets/icons8-postgresql-32.png" />
+              <img src="/assets/icons8-postgresql-32.png" />
             </div>
           </ul>
         </motion.div>
@@ -158,9 +158,9 @@ const MySkills = () => {
                 src="/assets/icons8-tools-64.png"
                 className="text-white fill-black"
               />
-              <p className="font-playfair font-semibold text-4xl mt-3">
+              <p className="font-playfair font-semibold text-2xl mt-3">
                 <span className="text-yellow">Tools</span> and
-                <span className="text-yellow">Languages</span>
+                <span className="text-yellow"> Languages</span>
               </p>
             </div>
           </div>
@@ -168,19 +168,19 @@ const MySkills = () => {
           <ul className="font-bold text-lg">
             <div className="flex gap-10 justify-between w-52">
               <li>Git</li>
-              <img src="/public/assets/icons8-git-32.png" />
+              <img src="/assets/icons8-git-32.png" />
             </div>
             <div className="flex gap-10 justify-between w-52">
               <li>Postman</li>
-              <img src="/public/assets/icons8-postman-32.png" />
+              <img src="/assets/icons8-postman-32.png" />
             </div>
             <div className="flex gap-10 justify-between w-52">
               <li>Javascript</li>
-              <img src="/public/assets/icons8-javascript-32.png" />
+              <img src="/assets/icons8-javascript-32.png" />
             </div>
             <div className="flex gap-10 justify-between w-52">
               <li>Typescript</li>
-              <img src="/public/assets/icons8-typescript-32.png" />
+              <img src="/assets/icons8-typescript-32.png" />
             </div>
           </ul>
         </motion.div>
