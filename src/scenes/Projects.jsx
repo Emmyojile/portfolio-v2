@@ -28,7 +28,7 @@ const Project = ({title}) =>{
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, laudantium.
                 </p>
             </div>
-            <img src={`/assets/${projectTitle}.jpeg`} alt={projectTitle}/>
+            <img src={`/assets/${projectTitle}.png`} alt={projectTitle} className="object-cover w-full h-48"/>
         </motion.div>
     )
 }
@@ -77,17 +77,17 @@ const Projects = () => {
             <div className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
                 BEAUTIFUL USER INTERFACES
             </div>
-            <Project title="Project 1"/>
-            <Project title="Project 2"/>
+            <Project title="admin"/>
+            <Project title="bloodbank"/>
 
             {/* ROW 2 */}
-            <Project title="Project 3"/>
-            <Project title="Project 4"/>
-            <Project title="Project 5"/>
+            <Project title="booking"/>
+            <Project title="e-commerc"/>
+            <Project title="blog"/>
 
             {/* ROW 3 */}
-            <Project title="Project 6"/>
-            <Project title="Project 7"/>
+            <Project title="restaurant"/>
+            <Project title="portfolio"/>
             
             <div className="flex justify-center text-center items-center p-10 bg-blue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
                 SMOOTH USER EXPERIENCE
