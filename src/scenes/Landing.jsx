@@ -44,18 +44,19 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Emmanuel {""}
+          <p className="text-4xl font-playfair z-10 text-center md:text-start">
+            FullStack {""}
             <span
               className="xs:relative xs:text-yellow xs:font-semibold z-20 
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
-              Ojile
+              Developer
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            A Dedicated Full-Stack Developer from Nigeria Crafting Innovative
+          <p className="mt-10 mb-7 text-2xl text-center md:text-start">
+            Hi, I'm <span className="xs:relative xs:text-yellow xs:font-semibold z-20 
+              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]">Emmanuel Ojile</span> from Nigeria a software engineer Crafting Innovative
             Web Solutions
           </p>
         </motion.div>
@@ -85,8 +86,8 @@ const Landing = ({ setSelectedPage }) => {
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
-            <div className="bg-grey hover:text-yellow transition duration-500 w-full h-full flex items-center justify-center font-playfair px-10 md:text-sm ss:text-xs">
-              Contact Me
+            <div className="bg-grey hover:text-yellow transition duration-500 w-full h-full flex items-center justify-center px-10 md:text-sm ss:text-xs">
+              CONTACT ME
             </div>
           </AnchorLink>
         </motion.div>
