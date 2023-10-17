@@ -12,6 +12,7 @@ export default {
         red: '#CD0404',
         yellow: '#F99417',
         grey: '#2E4F4F',
+        "grey-white": '#ffffff9f',
         "deep-blue": '#010026',
         "dark-gray": '#757575',
         "opaque-black": 'rgba(0, 0, 0, 0.35)'
