@@ -83,7 +83,7 @@ const Projects = () => {
             {/* ROW 2 */}
             <Project title="bookings-app"/>
             <Project title="e-commerc"/>
-            <Project title="blog"/>
+            <Project title="blog-app"/>
 
             {/* ROW 3 */}
             <Project title="restaurant"/>
