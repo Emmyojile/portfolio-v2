@@ -37,10 +37,11 @@ export default {
       }
     },
     screens:{
-      ss: "260",
-      xs: "480px",
-      sm: "768px",
-      md: "1060px"
+      xs: "320",
+      sm: "480px",
+      md: "1024px",
+      lg: "1280px",
+      xl: "1600px",
     }
   },
   plugins: [],
