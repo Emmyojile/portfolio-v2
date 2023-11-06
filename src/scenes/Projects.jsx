@@ -36,7 +36,7 @@ const projectsData = [
     websiteLink: "https://your-bloodbank-website-link.com",
   },
   {
-    title: "e-commerc",
+    title: "e-commerce-app",
     desc: "An e-commerce platform offering a wide range of clothing options for both men and women. Enhance the shopping experience with a wide array of products",
     githubLink: "https://github.com/Emmyojile/Commerce-App.git",
     websiteLink: "https://your-bloodbank-website-link.com",
