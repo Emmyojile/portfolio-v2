@@ -31,7 +31,7 @@ const MySkills = () => {
             functionality, I am your all-in-one solution for web development. My
             proficiency spans the entire web development stack, allowing me to
             seamlessly bridge the gap between design and functionality. With a
-            passion for creating elegant, user-friendly experiences, I'm
+            passion for creating elegant, user-friendly experiences, I`m
             dedicated to delivering web solutions that exceed expectations.
           </p>
         </motion.div>
@@ -39,18 +39,18 @@ const MySkills = () => {
         <div className="mt-16 md:mt-0 md:w-1/2">
           {" "}
           {isAboveMediumScreens ? (
-            <div
-              className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-      before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
-            >
+      //       <div
+      //         className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
+      // before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+      //       >
               <img
                 alt="skills"
-                className="z-10"
-                src="/assets/skills-image.png"
+                className="z-10 w-[80%] object-contain"
+                src="/assets/about-img.png"
               />
-            </div>
+            // </div>
           ) : (
-            <img alt="skills" className="z-10" src="/assets/skills-image.png" />
+            <img alt="skills" className="z-10" src="/assets/about-img.png" />
           )}
         </div>
       </div>
