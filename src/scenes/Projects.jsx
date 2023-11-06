@@ -133,8 +133,8 @@ const Projects = () => {
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="grid-cols-1 sm:grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-1"
-          initial="hidden"
+          className="grid grid-cols-1 sm:grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-1"
+          initial="hiden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           variants={container}
