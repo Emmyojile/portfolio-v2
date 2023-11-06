@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 
@@ -33,25 +34,25 @@ const projectsData = [
     title: "bookings-app",
     desc: "A versatile bookings application that simplifies the process of reserving apartments, hotels, and various accommodations across different locations.",
     githubLink: "https://github.com/Emmyojile/bookingApp.git",
-    websiteLink: "https://your-bloodbank-website-link.com",
+    websiteLink: "https://github.com/Emmyojile/bookingApp.git",
   },
   {
     title: "e-commerce-app",
     desc: "An e-commerce platform offering a wide range of clothing options for both men and women. Enhance the shopping experience with a wide array of products",
     githubLink: "https://github.com/Emmyojile/Commerce-App.git",
-    websiteLink: "https://your-bloodbank-website-link.com",
+    websiteLink: "https://github.com/Emmyojile/Commerce-App.git",
   },
   {
-    title: "blog-app",
-    desc: "A dynamic blog application for users to create, edit, and share their thoughts and stories. Engage with your readers and share content effortlessly.",
-    githubLink: "https://github.com/Emmyojile/nextjs-blog.git",
-    websiteLink: "https://github.com/Emmyojile/nextjs-blog.git",
+    title: "ticket-app",
+    desc: "An efficient ticket management system that empowers users to effortlessly create, update, and organize task tickets, simplifying task tracking and management",
+    githubLink: "https://github.com/Emmyojile/ticket-app.git",
+    websiteLink: "https://github.com/Emmyojile/ticket-app.git",
   },
   {
     title: "restaurant",
     desc: "A convenient restaurant application that allows users to explore menus, place orders, and enjoy a delicious meal from the comfort of their homes.",
-    githubLink: "https://github.com/Emmyojile",
-    websiteLink: "https://github.com/Emmyojile",
+    githubLink: "https://github.com/Emmyojile/restaurant.git",
+    websiteLink: "https://github.com/Emmyojile/restaurant.git",
   },
   {
     title: "portfolio",
@@ -89,6 +90,15 @@ const Project = ({ project }) => {
   );
 };
 
+Project.propTypes = {
+  project: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired,
+    githubLink: PropTypes.string.isRequired,
+    websiteLink: PropTypes.string.isRequired,
+  }).isRequired,
+};
+
 const Projects = () => {
   return (
     <section id="projects" className="pt-48 pb-48">
@@ -116,14 +126,14 @@ const Projects = () => {
           Explore my portfolio of innovative projects showcasing my diverse
           skill set as a Full Stack Developer. Each project is a testament to my
           passion for creating meaningful digital experiences. Dive in and
-          discover the world I've built, one project at a time.
+          discover the world I`ve built, one project at a time.
         </p>
       </motion.div>
 
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3"
+          className="sm:grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
