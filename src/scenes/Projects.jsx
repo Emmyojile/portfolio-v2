@@ -46,7 +46,7 @@ const projectsData = [
     title: "ticket-app",
     desc: "An efficient ticket management system that empowers users to effortlessly create, update, and organize task tickets, simplifying task tracking and management",
     githubLink: "https://github.com/Emmyojile/ticket-app.git",
-    websiteLink: "https://github.com/Emmyojile/ticket-app.git",
+    websiteLink: "https://restaurant-gamma-one.vercel.app/",
   },
   {
     title: "restaurant",
