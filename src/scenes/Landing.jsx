@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 import MyResume from "./../assets/better_resume_v2.pdf";
+import Resume from "./../assets/Current-Resume.pdf";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -55,9 +56,14 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-2xl text-center md:text-start">
-            Hi, I'm <span className="xs:relative xs:text-yellow xs:font-semibold z-20 
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]">Emmanuel Ojile</span> from Nigeria a software engineer Crafting Innovative
-            Web Solutions
+            Hi, I'm{" "}
+            <span
+              className="xs:relative xs:text-yellow xs:font-semibold z-20 
+              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
+            >
+              Emmanuel Ojile
+            </span>{" "}
+            from Nigeria a software engineer Crafting Innovative Web Solutions
           </p>
         </motion.div>
 
@@ -75,7 +81,7 @@ const Landing = ({ setSelectedPage }) => {
         >
           <a
             className="bg-gradient-rainblue text-white rounded-sm py-3 px-7 hover:bg-blue hover:text-black transition duration-500 border-y-grey border-2 ss:text-xs"
-            href={MyResume} // Ensure that this variable points to your PDF file
+            href={Resume} // Ensure that this variable points to your PDF file
             download="MyResume.pdf" // Ensure the correct file extension
           >
             DOWNLOAD CV
