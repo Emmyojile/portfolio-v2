@@ -2,8 +2,8 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SocialMediaIcons from "../components/SocialMediaIcons";
-import MyResume from "./../assets/better_resume_v2.pdf";
-import Resume from "./../assets/Current-Resume.pdf";
+import MyResume from "./../assets/ACTIVE_RESUME.pdf";
+import Resume from "./../assets/ACTIVE_RESUME.pdf";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
